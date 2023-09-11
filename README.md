@@ -19,7 +19,7 @@ El proceso general del proyecto incluye:
 
 ## Estructura del Repositorio
 - `bmi.csv`: Conjunto de datos de altura, peso, género e índice de masa corporal.
-- `bmi_analysis.ipynb`: Cuaderno Jupyter con el código completo y comentarios detallados.
+- `ANN_for_BMI.py`: Cuaderno Jupyter con el código completo y comentarios detallados.
 
 ## Requisitos
 - Python 3.x
@@ -27,7 +27,7 @@ El proceso general del proyecto incluye:
 
 ## Instrucciones de Uso
 1. Clona este repositorio en tu máquina local.
-2. Ejecuta el cuaderno `bmi_analysis.ipynb` para explorar el análisis y la mejora del modelo.
+2. Ejecuta el cuaderno `ANN_for_BMI.py` para explorar el análisis y la mejora del modelo.
 
 ## Resultados
 Después de implementar la técnica de GridSearch para el ajuste del modelo, encontramos la mejor configuración de la red neuronal que evita el subajuste y el sobreajuste. Esta configuración proporciona un error cuadrado medio de aproximadamente 59.765 en el conjunto de prueba.
